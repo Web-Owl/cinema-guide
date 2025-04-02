@@ -13,7 +13,7 @@ withDefaults(defineProps<Props>(), {
 
 <template>
   <svg :width="width" aria-hidden="true" :height="height">
-    <use :xlink:href="`/sprite.svg#${icon}`"></use>
+    <use :xlink:href="`./sprite.svg#${icon}`"></use>
   </svg>
 </template>
 

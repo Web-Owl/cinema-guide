@@ -154,7 +154,7 @@ watch(
         <div class="container-mobile">
           <img
             class="hero-wrapper__img"
-            :src="movie.backdropUrl || '/public/img-no-photo.png'"
+            :src="movie.backdropUrl || './img-no-photo.png'"
             alt="изображение фильма"
             width="900"
             height="680"

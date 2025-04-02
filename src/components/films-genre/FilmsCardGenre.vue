@@ -17,7 +17,7 @@ async function goToGenrePage() {
     <div class="films-card-genre__inner">
       <img
         class="films-card-genre__img"
-        :src="`/public/images/${genre}.png`"
+        :src="`./images/${genre}.png`"
         alt="изображение фильма"
         width="290"
         height="220"

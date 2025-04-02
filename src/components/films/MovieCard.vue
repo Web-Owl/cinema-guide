@@ -32,7 +32,7 @@ function selectFilm() {
     <div class="films-card__inner">
       <img
         class="films-card__img"
-        :src="movie.posterUrl || '/public/img-no-photo.png'"
+        :src="movie.posterUrl || './img-no-photo.png'"
         alt="изображение фильма"
         width="224"
         height="336"
